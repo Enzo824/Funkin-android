@@ -219,7 +219,7 @@ class FreeplayState extends MusicBeatState
 		if (Math.abs(lerpScore - intendedScore) <= 10)
 			lerpScore = intendedScore;
 
-		scoreText.text = "PERSONAL BEST:" + lerpScore;
+		scoreText.text = "TEXTO:" + lerpScore;
 
 		switch (songs[curSelected].songName.toLowerCase())
 		{
@@ -310,7 +310,7 @@ class FreeplayState extends MusicBeatState
 			case 1:
 				diffText.text = '< NORMAL >';
 			case 2:
-				diffText.text = "< HARD >";
+				diffText.text = "< DIFICIU >";
 		}
 	}
 	override function beatHit()
