@@ -310,7 +310,7 @@ class FreeplayState extends MusicBeatState
 			case 1:
 				diffText.text = '< NORMAL >';
 			case 2:
-				diffText.text = "< DIFICIU >";
+				diffText.text = "< DIFICEU >";
 		}
 	}
 	override function beatHit()
